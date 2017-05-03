@@ -1,0 +1,31 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "DS chat app back-end.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodejs index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/litleleprikon/ds_chat.git"
+  },
+  "author": "litleleprikon <litleleprikon@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/litleleprikon/ds_chat/issues"
+  },
+  "homepage": "https://github.com/litleleprikon/ds_chat#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "crypto": "0.0.3",
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "mongoose": "^4.6.8",
+    "socket.io": "^1.5.1",
+    "socket.io-redis": "^2.0.0",
+    "socketio-auth": "^0.1.0",
+    "uid-safe": "^2.1.3"
+  }
+}

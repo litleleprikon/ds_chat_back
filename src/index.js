@@ -90,6 +90,6 @@ auth(io, {
     }
 });
 
-http.listen(3001, function () {
-    console.log('Now app is listening on *:3001');
+http.listen(80, function () {
+    console.log('Now app is listening on *:80');
 });
